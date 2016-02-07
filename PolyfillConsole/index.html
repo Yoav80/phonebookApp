@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        if(typeof console == "undefined") {
+            window.console = {};
+
+            window.console.log = function() {
+
+            }
+        }
+
+        console.log("abc");
+    </script>
+</body>
+</html>

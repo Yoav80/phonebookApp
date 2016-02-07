@@ -1,0 +1,7 @@
+packages
+.suo
+bin
+debug
+.csproj.user
+node_modules
+.idea
